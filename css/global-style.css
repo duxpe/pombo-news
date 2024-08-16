@@ -86,8 +86,8 @@ header .logo {
 }
 
 header .logo:hover {
-    transform: scale(90%);
-    transition: transform 0.3s ease;
+    transform: scale(19%);
+    transition: transform 0.5s ease;
 }
 
 header nav {
@@ -191,6 +191,12 @@ footer a {
     color: #333;
 }
 
+.card em {
+    color: #77b300;
+    font-weight: 600;
+    padding-left: 0.125rem;
+}
+
 .card:hover {
     transform: translateY(-0.625rem);
 }
@@ -205,4 +211,42 @@ footer a {
     .card {
         width: 100%;
     }
+}
+
+
+.about-site {
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-top: 0.125rem solid #ddd;
+    margin-top: 2rem;
+}
+
+.about-site h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.about-site p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-site a {
+    color: #77b300;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.about-site a:hover {
+    color: #333;
 }
