@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pombo News🕊️📰</title>
+    <title>Contato - Pombo News🕊️📰</title>
+    <link rel="stylesheet" href="../css/global-style.css">
+    <link rel="stylesheet" href="../css/contact-page.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <div class="header-container">
+            <img class="logo" src="../imagens/logo.png" alt="Pombo News Logo">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">Sobre Nós</a></li>
+                    <li><a href="../index.html#futebol-anchor">Futebol</a></li>
+                    <li><a href="../index.html#olimpiadas-anchor">Olimpíadas</a></li>
+                    <li><a href="./contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <h1>Entre em Contato</h1>
+            <p>Se você tem uma dica quente, uma sugestão, ou apenas quer dizer o quanto ama o Pombo News, preencha o formulário abaixo. Vamos adorar ouvir de você, contanto que a sugestão envolva futebol e olimpiadas ou olimpiadas e futebol!</p>
+
+            <form action="#">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" type="text" placeholder="Escreva sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="header-container">
+            <p>&copy; 2024 Pombo News. Todos os direitos reservados.</p>
+            <p><a href="#">Política de Privacidade</a></p>
+        </div>
+    </footer>
 </body>
+
 </html>
